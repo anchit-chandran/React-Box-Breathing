@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.appContainer {
+    color: white;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.nav-brand-name {
+    display: inline;
+}
+
+.button {
+    height: 7em;
+    width: 20em;
+}
+
+.breathing-animation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start_animation_container {
+    position: relative;
+}
+
+.circle {
+    width: 6em;
+    height: 6em;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+}
+
+.text_container {
+    position: absolute;
+}
+
+.time_count_nums {
+    position: absolute;
+}
